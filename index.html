@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Data Analysis</title>
+        <script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
+        <script src="bower_components/underscore/underscore.js" type="text/javascript"></script>
+        <script src="bower_components/d3/d3.min.js" type="text/javascript"></script>
+        <script src="index.js" type="text/javascript"></script>
+       	<link rel = "stylesheet" type = "text/css" href = "cssds.css" />
+		
+    </head>
+    <body>
+		<div id = "header">
+			<center>
+			<h1 style="color:skyblue;"> Olympic data analysis </h1>
+			<hr>
+			</center>
+			</div>
+			
+		<div id = "story" style="font-family: sans-serif;padding: 25px;">
+			<div id="CHART 3">
+                <center>
+                    
+                    <div class='tableauPlaceholder' id='viz1641333505940' style='position: relative'><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='2_1_16413158958710&#47;dash1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1641333505940');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1100px';vizElement.style.height='527px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1100px';vizElement.style.height='527px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>            <p>
+                </center>
+				<p>
+					Starting from the 1896 Summer Olympics hosted by Greece, host countries have performed quite well. In the first 5 summer Olympics hosts have won more medals as compared to other participating countries. Like in 1904 summer Olympics USA won 230 medals which is far more than all the participating countries combined. Unlike the summer Olympics, the Winter Olympics had a quite different trend in the first years. For instance, in the first winter Olympics, France that hosted that game won only 3 medals whereas Norway won 17 in the same game. The performance of countries such as the USA and Italy were better in the winter Olympics that they hosted than in the Summer Olympics that they hosted. Although host countries performed differently over the period of time and they are not the most medal winner countries except 10 games, their medal numbers are generally more than many other participant countries. But it is also a fact that there is a big difference between the performance of the host countries and the countries that have won the most medals in the last few games. For example, while this difference is approximately 6 times in the 2016 Olympic Games, it is 2 times in the 2020 Olympic Games. </p>
+            </div>
+
+           
+				<div id="clear"></div>
+				<br>
+				 <div class="money">
+					 <div id="money-one">
+				 		
+				 		<h2 style="color:skyblue;"> Number & type of  Olympic medals won by country in Olympic</h2>
+				 		
+				 <div id="clear"></div>
+				 
+				 <div id="CHART 2">
+					<center>
+						
+                        <div class='tableauPlaceholder' id='viz1641333316784' style='position: relative'><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='2_2_16413276298240&#47;chart2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1641333316784');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1100px';vizElement.style.height='627px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1100px';vizElement.style.height='627px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>					<div id="money-text-one">
+						</center>
+							<p>
+							The number of medals won by Brazil has increased gradually over time. Starting with no medals in the 1990 Olympics to winning 21 medals in 2020. In the 2016 summer Olympics hosted by Brazil, they won 19 medals. Comparing Brazil's performance in host and non-host years, its performance in its host year is better than its performance in all other years except 2020. The USA always remained dominant in the summer Olympics. The number of medals varied over time. But in the games hosted by the USA, they won a huge number of medals. Like in the 1904 summer Olympics they won 76 gold medals, and in 1984 summer games won 82 gold medals. In winter games they performed not so well as compared to summer ones. United Kingdom is also performed similarly to the USA in games hosted by them. But the number of medals is less than in the USA. In the first games hosted by the UK in 1908, they won around 141 medals, after that their performance declined slightly. In the last games hosted in London in 2012 UK won 65 medals. In the summer Olympics UK at least won a single medal in every Olympic they participated in but in winter games like in 1956, 1960 they didn't win even a single medal. When her performance in the hosting years is evaluated, her performances in the 1980 summer Olympics are far better than other years, and her performances in the other two hosting games are also above average performances. China entered the games far later than other top performers. From first games in 1984, they became an athletics powerhouse. He showed his best performance in the games by winning nearly 100 medals in the 2012 Olympic games they hosted. Japan had the best performance in the recent Olympics games hosted by them. In all of the history of Japan participating in the Olympics, they won the greatest number of medals in the 2020 summer Olympics hosted by them. However, their performance in the 1998 and 1972 winter games fell short of their average performance, and they also showed an average performance in the 1964 summer Olympics they hosted.</p>
+					<p>
+					
+					
+					<h2 style="color:skyblue;">
+						Average medals won by country being a host & particpant
+					</h2>
+					
+				</hr>
+				<div id="CHART 3">
+					<center>
+				
+						<div class='tableauPlaceholder' id='viz1641327789230' style='position: relative'><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='2_3_16412968713250&#47;Chart3' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1641327789230');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='527px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='527px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>					</center>
+				<p>
+					On average, countries won more medals when they hosted the games. One of the main factors of that can be the support given by crowd the participants and advantage of playing in home grounds. As in the case of the USA, the average number of medals won by the USA as a participant is 53.1, while the number of medals won as a host nation is 85.3. In the case of the United Kingdom, we can see the large difference in the average number of medals, with the United Kingdom winning only 15.1 medals as a participant, compared to around 78.3 as a host. Similar situations exist between medals won by Japan and Brazil as host or participating countries. The difference can be seen directly in the case of Greece, as in the UK. They have only 1.3 average medals as a participant, while the average medals are 30 as hosts.</p>
+			</center>
+				</div>
+
+<h2 style="color:skyblue;">
+Total medals won by respective Continents
+</h2>
+
+
+
+				 <div id="outdoor-air-pollution">
+					 <center>
+						
+                        <div class='tableauPlaceholder' id='viz1641329514627' style='position: relative'><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='2_4_16413294814270&#47;ContinentAnalysis' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1641329514627');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='820px';vizElement.style.height='687px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='820px';vizElement.style.height='687px';} else { vizElement.style.width='100%';vizElement.style.height='1127px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+					 </center>
+					<p>
+						Europe performed much better at the Olympics as it was more crowded compared to Asia. They have 437 medals and England makes the biggest contribution to this. South America has the lowest medal count among the continents, winning only 36 medals, followed by Africa with 37 medals. Africa has only 37 medals, most of which were won by Kenya, Egypt and Ethiopia. These two countries have fewer participating countries than Asia and Europe. In North America, the United States alone is the top contributor with 113 medals, more than all the other countries on the continent combined. The most populated continent, Asia, ranks second with 327 medals, with China contributing the most to this success. Oceania, which has the fewest countries on the continent, has 68 medals, 46 of which were won by Australia.</p>
+				</div>
+				
+				
+				
+					<br>
+				 		</p>
+				 </div>
+
+				 <br>
+				 
+
+				<div id="clear"></div>
+
+				 <div id="money-two">
+				 	<br><br>
+					 <hr>
+	<div style="font-family: sans-serif;">
+		<div id = "Intro">
+			<center>
+				<p style="font-family:  'Arial Narrow', Arial, sans-serif;">
+						“There is a global epidemic of violence against women-both within 
+						conflict zones and within societies at peace-and it is still treated
+						as a lesser crime and lower priority” <b></p><i> -Angelina Jolie</b></i>
+				</p>	
+				
+				<h1 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+							font-size:xxx-large ;color:rgb(124, 0, 128);">
+							<b> Violence against Women </b>
+				</h1>
+				
+				
+				<hr>	
+			</center>	
+				<p style="font-family: sans-serif; padding-right: 100px;padding-left: 100px;">
+					The UN Sustainable Development Goal is to achieve grader equality and empower all women and girls.
+					One area of attention is violence against women and girls. Violence against women is a horrible human 
+					rights violation that still occurs across the globe. Regular surveys of DHS help to figure out the extent
+					to which violence against women and girls is justified in different countries. The infographic charts show
+					the key results of a series of surveys held in poorer countries in the period 2002 -2018.
+				</p>
+		</div> 
+			 
+			
+		<div id = "chart 1" style="font-family: sans-serif;padding-left: 100px;padding-right: 100px;padding-top: 10px;">
+            <center>                   
+				<div class='tableauPlaceholder' id='viz1641649906243' style='position: relative'><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Dash1_16415559290530&#47;Dash1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1641649906243');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='720px';vizElement.style.height='887px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='720px';vizElement.style.height='887px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>            
+			</center>	
+				<p style="font-family: sans-serif;">
+					In many countries, a higher percentage of women and men think that violence against the women is justified.
+                     Participants from varying ages, marital status, and education levels supplied responses on whether acceptable
+					  or not for husbands to beat their wives for varying reasons. 
+				</p>
+				
+		</div>
+		
+		<hr>
+			
+		<div id="CHART 2" style="padding-top: 10px;padding-left: 100px;padding-right: 100px;">
+			<center>			
+				<div class='tableauPlaceholder' id='viz1641646924122' style='position: relative'><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Dash2_1_16415924511060&#47;Dash2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1641646924122');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='787px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='787px';} else { vizElement.style.width='100%';vizElement.style.height='1127px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>					
+			</center>				
+				<ul>
+					<li style="font-size:large;">The burning of food is the least acceptable justification for violence, 
+						while the accusation of neglecting their children is seen as a stronger justification of violence.
+					</li>
+					<li style="font-size:large;"> Rural women are more likely than urban women to believe that violence against them is justified. To learn, to read,
+						to explore the world, and people will realize violence should not be justified in any &nbsp circumstances.
+					</li>
+					<li style="font-size:large;">
+						At the median response level for all countries, the younger generation accepts violence against women than older generations.
+					</li>
+				</ul>
+		</div>
+		
+		<hr>
+		
+		<div id="CHART 3" style="padding-top: 10px;padding-left: 100px;padding-right: 100px;">
+			<center>
+				<div class='tableauPlaceholder' id='viz1641646971930' style='position: relative'><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Dash3_16415933305860&#47;Dash3' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1641646971930');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='820px';vizElement.style.height='787px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='820px';vizElement.style.height='787px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>	
+				</center>
+				<p style="padding-left: 100 px; padding-right: 100px;">	The higher educated, the less people agree to the statement that wife 
+					beating is justified for whatever the reason is. The biggest decline in 
+					justification happens when people go from secondary to higher education.
+				</p>			
+		</div>
+		
+		<hr>
+		
+		<div id="CHART 4" style="padding-top: 10px;padding-left: 100px;padding-right: 100px;">
+			<center>		 
+                <div class='tableauPlaceholder' id='viz1641851858558' style='position: relative'><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Dash4_2_16418518305190&#47;da42' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1641851858558');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='740px';vizElement.style.height='687px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='740px';vizElement.style.height='687px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                <p>
+                    Access to education appears to be the biggest momentous change to bring awareness
+					 about violence against women and girls never being justified.It is critical that 
+					 the countries where these views are held like Morocco, Eritrea, Kenya prioritize 
+					 awareness campaigns, and education for all
+				</p>
+			</center>
+		</div>
+		
+		<hr>
+		
+		<div style="padding-top: 10px;padding-right: 200px;padding-left: 200px;font-family: 'Arial Narrow', Arial, sans-serif;">
+			<CENter>
+				<h1>Violence against women is</h1><h1 style="color: rgba(255, 0, 0, 0.932);"> NEVER JUSTIFIED</h1>
+			</CENter>
+				<p>“We talk about how many women were raped last year; not about how many men raped women. 
+					 We talk about how many girls were harassed last year in a school district; not about how 
+					 many boys harassed girls.” <b><i>- Jackson Katz </b>TED Talk 2013</i>
+				</p>
+			<center>
+				<div style="max-width:854px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://embed.ted.com/talks/jackson_katz_violence_against_women_it_s_a_men_s_issue" width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+				<br>
+				<br>
+				<p>“It’s not enough just to treat women well. We have to work to make sure all men treat women 
+					well.”<b><i>- Jeff Bridges</b> Union Theological Seminary</i>
+				</p>
+			</center>
+		</div>
+		<div style="padding-right: 200px;padding-left: 200px;">				 
+			<center>
+				<h1 style="font-family: sans-serif; color: rgba(255, 0, 0, 0.932);">
+					<br>
+					!!!!!!DON’T REMAIN SILENT!!!!
+				</h1>	
+			</center>					 
+				<p style="padding-left: 200PX;padding-right: 200PX;font-family:  'Arial Narrow', Arial, sans-serif;">
+						If a brother, friend, classmate, or teammate is abusing his female partner-or is disrespectful or
+							abusive to girls and women in general-don't look the other way. Try to talk to him about it if you feel 
+							safe doing so. Encourage him to get help. Consult a friend, a parent, a lecturer, or a counsellor if you
+							don't know what to do.  
+							<a href="https://www.thepixelproject.net/the-mens-room/10-things-you-can-do-to-stop-violence%20against%20women/">
+								Click here for more info
+							</a>
+				</p>
+		</div>
+        <div style="padding-left: 10px;padding-right: 10px; padding-top:10px; padding-bottom:50px;">
+			<center>
+				<img src="https://www.inspiringscotland.org.uk/wp-content/uploads/2020/12/Equally-safe-quote-graphic-2.png" alt="">
+			</center>
+		</div>
+	</div>
+	<hr>
+	    <body>
+		<div id = "header">
+			<center>
+			<h1 style="color: green;"> Air pollution  1990-2017: Uncommon reasons costing lives </h1>
+			</center>
+			</div>
+			
+		<div id = "story" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;padding: 25px;">
+				<div id="intro">
+				<div id = "intro-text">
+					<p> Global death rates due to Air pollution soared high during past two decades. Air pollution is one of the world’s largest health and environmental problems. It develops in two contexts: indoor (household) air pollution and outdoor air pollution.
+						Household combustion devices, motor vehicles, industrial facilities and forest fires are common sources of air pollution. Pollutants of major public health concern include particulate matter, carbon monoxide, ozone, nitrogen dioxide and sulfur dioxide. Outdoor and indoor air pollution cause respiratory and other diseases and is an important source of morbidity and mortality. 
+					</p>
+					<p>
+				
+				 </div>
+				 <center>
+					<div class='tableauPlaceholder' id='viz1641415505286' style='position: relative'><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='dash1_16414144571460&#47;AvgDeathsduetoAirPollution' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1641415505286');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='900px';vizElement.style.height='527px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='900px';vizElement.style.height='527px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>					</center>
+				      </div>
+				<div id="clear"></div>
+				<br>
+				 <div class="money">
+					 <div id="money-one">
+				 		<hr>
+				 		<h3> Countries having highest and lowest death rates</h3>
+				 		<hr>
+				 <div id="clear"></div>
+				 
+				 <div id="money-image-one">
+					<center>
+						<div class='tableauPlaceholder' id='viz1641415528773' style='position: relative'><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Dash2_16414150122850&#47;Top5andBottom5' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1641415528773');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='877px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>					</center>
+					<div id="money-text-one">
+				 		<p>
+						Small island nation of papua new genia have highest overall death rates due to air pollution. In contrast to big and heavily
+						industerialised counteries like china and USA.the air quality in Papua New Guinea is considered moderately unsafe. Developed nations  have lower death rates per 100,000 people whereas in growing economies air pollution is 
+						heavily neglected. Norway have lowest death rates.Air pollution levels in Norway have been relatively stable over the last decade. For particulate matter, 
+						there has been a slight decline. Air pollution levels are similar to the other Scandinavian countries, but lower than in southern Europe.
+					</p>
+					<p>
+					<hr>
+					</hr>
+					<h3>
+						Which air pollution is more dangerous and how has it changed around the world   
+					</h3>
+					<hr>
+				</hr>
+				<div id="dangerous-air-pollution">
+					<center>
+						<div class='tableauPlaceholder' id='viz1641415541621' style='position: relative'><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Dash3_16414150959490&#47;Dashboard4' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1641415541621');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='820px';vizElement.style.height='687px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='820px';vizElement.style.height='687px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>					</center>
+				<p>
+					Over the years Indoor air pollution caused more deaths around the world as compared to the outdoor particulate matter.
+					Indoor air pollution is generally neglected in day to day life but its more dangerous.Around half of the deaths occurs 
+					due to indoor air pollution. Starting from around 68 deaths per 100,000 in early 90s it 
+					gradually decreased over the decade to around 55 deaths in 2000 and to 35 deaths per 100,000 in 2016.
+					Around 2.6 billion people still cook using solid fuels (such as wood, crop wastes, charcoal, coal and dung) and kerosene in open fires and inefficient stoves. Most of these people are poor, and live in low- and middle-income countries.
+					Household air pollution causes noncommunicable diseases including stroke, ischaemic heart disease, chronic obstructive pulmonary disease (COPD) and lung cancer. 
+				</p>
+				</div>
+				<hr>
+				<h3>
+				 Changes in death rates from indoor air pollution  and countries have highest rates
+				</h3>
+				 <hr>
+				 <div id="changes-due-to-indoor">
+					<center>
+						<div class='tableauPlaceholder' id='viz1641415574462' style='position: relative'><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Dash4_16414151425850&#47;IndoorPollution' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1641415574462');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='820px';vizElement.style.height='687px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='820px';vizElement.style.height='687px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>					</center>
+					<p> Average deaths due to Indoor air pollution have decreased over time.From 221 in in 1990 to 154 in 2017.
+						Countries like popua new genia and afghanistan have highest death rates due to indoor air pollution as in 
+						these countries people use fuels and technologies that produce high levels of household air pollution with a range of health-damaging pollutants, 
+						including small soot particles that penetrate deep into the lungs. In poorly ventilated dwellings, indoor smoke can be 100 times higher than acceptable levels for fine particles. Exposure is particularly high among women and young children, who spend the most time near the domestic hearth.
+						Papua New Guinea tops with list with average of 259 deaths per 100,000 and we also have other counteries like
+						Somalia , Soloman islands and many more.
+						
+
+
+					</p>
+				 </div>
+<hr>
+<h3>
+Changes in death rates due to outdoor pollution and countries having highest death rates.
+</h3>
+
+<hr>
+
+				 <div id="outdoor-air-pollution">
+					 <center>
+						<div class='tableauPlaceholder' id='viz1641415608589' style='position: relative'><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Dash5_16414152308510&#47;OutdoorPollution' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1641415608589');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='820px';vizElement.style.height='687px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='820px';vizElement.style.height='687px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+					 </center>
+					<p>
+						Deaths due to outdoor particular matter have increased gradually from past two decades starting from 23 deaths per 100,000
+						it increased to 26 deaths per 100,000 in 2018. The war torn country of afghanistan have highest death rates due to outdoor particulate matter.
+						About 46 deaths per 100,000. Countries like Laos and Burundi are also not far behind haveing 31 and 27 deaths per 100,000.
+						This mortality is due to exposure to fine particulate matter of 2.5 microns or less in diameter (PM2.5), which cause cardiovascular and respiratory disease, and cancers.
+
+
+					</p>
+				</div>
+				<hr>
+				<h3>
+					Changes in death rates from ozone air pollution & countries have highest death rates
+				</h3>
+				<hr>
+				<div id="outdoor-air-pollution">
+					<center>
+						<div class='tableauPlaceholder' id='viz1641415633438' style='position: relative'><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Dash6_16414154307310&#47;OzonePollution' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1641415633438');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='820px';vizElement.style.height='687px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='820px';vizElement.style.height='687px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>					</center>
+					<p>
+						Deaths rates due to Ozone air pollution have mostly remained contant over past 3 decades. From the average rate of 
+						2.4 deaths per 100,000 it haven't changed highly over the years. During 2000-2010 it 
+						slightly got lowered to 2.3 deaths per 100,000 But in 2016 it increased to its perivous levels. 
+						Again Afghanistan have highest deaths per 100,000 due to Ozone air pollution.Around 5.8 deaths per 100,000. 
+						That's more than double of global average of 2.4 during this time. 
+					</p>
+
+				</div>
+				<hr>
+					<br>
+				 		</p>
+				 </div>
+
+				 <br>
+				 
+
+				<div id="clear"></div>
+
+				 <div id="money-two">
+				 	<br><br>
+    </body>
+</html>
